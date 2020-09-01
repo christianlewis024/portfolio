@@ -45,7 +45,7 @@ class Main extends React.Component {
   constructor() {
     super();
     this.speed = 350;
-    this.rows = 60;
+    this.rows = 80;
     this.cols = 120;
 
     this.state = {

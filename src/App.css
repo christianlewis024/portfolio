@@ -80,3 +80,33 @@ a:visited {
   border: 1px solid black;
   padding: 1%;
 }
+span .fas,
+span .fab {
+  font-size: 24px;
+}
+.link-span {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.apiss:hover {
+  opacity: 0.5;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c0bebe;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #36454f;
+}

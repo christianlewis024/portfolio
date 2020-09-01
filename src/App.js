@@ -12,8 +12,67 @@ function App() {
         </div>
         <div className="top2">
           <div className="project-1">
-            <img src="hrfss.png" className="apiss"></img>
-            <span>
+            <a
+              href="https://main.d2njpi9j1s76mb.amplifyapp.com/"
+              target="_blank"
+            >
+              <img src="hrfss.png" className="apiss"></img>{" "}
+            </a>
+
+            <span className="link-span">
+              {" "}
+              <a
+                href="https://main.d2njpi9j1s76mb.amplifyapp.com/"
+                target="_blank"
+              >
+                Deployed <i class="fas fa-globe"></i>
+              </a>
+              <a
+                href="https://github.com/Lambda-School-Labs/Labs25-Human_Rights_First-TeamB-FE"
+                target="_blank"
+              >
+                Repository <i class="fab fa-github"></i>
+              </a>
+            </span>
+            <div className="proj-about">
+              here is where i will write about the skills i used to create the
+              project here is where i will write about the skills i used to
+              create the project here is where i will write about the skills i
+              used to create the project here is where i will write about the
+              skills i used to create the project
+            </div>
+          </div>
+          <div className="project-2">
+            <a href="https://www.sciencewithmrslewis.com/" target="_blank">
+              <img src="chanelss.png" className="apiss"></img>
+            </a>
+            <span className="link-span">
+              {" "}
+              <a href="https://www.sciencewithmrslewis.com/" target="_blank">
+                Deployed <i class="fas fa-globe"></i>
+              </a>
+              <a
+                href="https://github.com/christianlewis024/chanelv2"
+                target="_blank"
+              >
+                Repository <i class="fab fa-github"></i>
+              </a>
+            </span>
+            <div className="proj-about">
+              here is where i will write about the skills i used to create the
+              project here is where i will write about the skills i used to
+              create the project here is where i will write about the skills i
+              used to create the project here is where i will write about the
+              skills i used to create the project
+            </div>
+          </div>
+        </div>
+        <div className="bottom2">
+          <div className="project-3">
+            <a href="https://apimountain.netlify.app/" target="_blank">
+              <img src="apiss.png" className="apiss"></img>
+            </a>
+            <span className="link-span">
               {" "}
               <a href="https://apimountain.netlify.app/" target="_blank">
                 Deployed <i class="fas fa-globe"></i>
@@ -33,70 +92,17 @@ function App() {
               skills i used to create the project
             </div>
           </div>
-          <div className="project-2">
-            <img src="chanelss.png" className="apiss"></img>
-            <span>
-              {" "}
-              <a
-                href="https://github.com/christianlewis024/apimountain"
-                target="_blank"
-              >
-                Deployed <i class="fas fa-globe"></i>
-              </a>
-              <a
-                href="https://github.com/christianlewis024/apimountain"
-                target="_blank"
-              >
-                Repository <i class="fab fa-github"></i>
-              </a>
-            </span>
-            <div className="proj-about">
-              here is where i will write about the skills i used to create the
-              project here is where i will write about the skills i used to
-              create the project here is where i will write about the skills i
-              used to create the project here is where i will write about the
-              skills i used to create the project
-            </div>
-          </div>
-        </div>
-        <div className="bottom2">
-          <div className="project-3">
-            <img src="apiss.png" className="apiss"></img>
-            <span>
-              {" "}
-              <a
-                href="https://github.com/christianlewis024/apimountain"
-                target="_blank"
-              >
-                Deployed <i class="fas fa-globe"></i>
-              </a>
-              <a
-                href="https://github.com/christianlewis024/apimountain"
-                target="_blank"
-              >
-                Repository <i class="fab fa-github"></i>
-              </a>
-            </span>
-            <div className="proj-about">
-              here is where i will write about the skills i used to create the
-              project here is where i will write about the skills i used to
-              create the project here is where i will write about the skills i
-              used to create the project here is where i will write about the
-              skills i used to create the project
-            </div>
-          </div>
           <div className="project-4">
-            <img src="quizss.png" className="apiss"></img>
-            <span>
+            <a href="https://weeklyhistoryquiz.netlify.app/" target="_blank">
+              <img src="quizss.png" className="apiss"></img>
+            </a>
+            <span className="link-span">
               {" "}
-              <a
-                href="https://github.com/christianlewis024/apimountain"
-                target="_blank"
-              >
+              <a href="https://weeklyhistoryquiz.netlify.app/" target="_blank">
                 Deployed <i class="fas fa-globe"></i>
               </a>
               <a
-                href="https://github.com/christianlewis024/apimountain"
+                href="https://github.com/christianlewis024/historyquizfinal"
                 target="_blank"
               >
                 Repository <i class="fab fa-github"></i>

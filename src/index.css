@@ -1,10 +1,12 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 240, 240);
+  font-family: "Faustina", serif;
 }
 
 .box {
   display: inline-block;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(247, 240, 240);
+
   width: 15px;
   height: 15px;
   margin-left: -1px;
@@ -12,11 +14,11 @@ body {
 }
 
 .off {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 240, 240);
 }
 
 .on {
-  background-color: #a0a6aa;
+  background-color: #d6dadd;
 }
 
 .grid {
@@ -26,27 +28,4 @@ body {
   margin: auto;
   overflow: auto;
   z-index: -1;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: black;
-  margin: auto;
-  text-align: center;
-  width: 50%;
-  margin-top: 10px;
-}
-
-h4 {
-  margin-top: 0px;
-}
-button {
-  background-color: blue;
-  margin-left: 10%;
-  margin-bottom: 10%;
-  color: white;
-  font-weight: 900;
-  border-radius: 10px;
 }

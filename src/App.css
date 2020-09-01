@@ -1,0 +1,51 @@
+.box-1 {
+  font-size: 30px;
+  position: absolute;
+  background-color: white;
+  margin-left: 15%;
+  padding: 2%;
+  background-color: white;
+  border: 3px solid gray;
+  margin-top: 0;
+}
+span {
+  font-size: 1.5em;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4 {
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 5%;
+  padding: 5%;
+  margin-bottom: 20%;
+  height: 40%;
+}
+
+.project-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  width: 99%;
+  flex-wrap: wrap;
+}
+.top2,
+.bottom2 {
+  width: 30%;
+}
+
+/* Footer Styling */
+.footerClass {
+  border-top: 1px solid black;
+}
+.footerClass h1 {
+  display: flex;
+  justify-content: center;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}

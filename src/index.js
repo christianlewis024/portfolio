@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { ButtonToolbar } from "react-bootstrap";
 import App from "./App";
+import Footer from "./footer";
 
 class Box extends React.Component {
   render() {
@@ -116,14 +117,17 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div>
-        <App />
-        <Grid
-          gridFull={this.state.gridFull}
-          rows={this.rows}
-          cols={this.cols}
-        />
-      </div>
+      <>
+        <div>
+          <App />
+          <Grid
+            gridFull={this.state.gridFull}
+            rows={this.rows}
+            cols={this.cols}
+          />
+        </div>
+        <Footer />
+      </>
     );
   }
 }

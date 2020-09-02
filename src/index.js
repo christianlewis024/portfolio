@@ -4,6 +4,7 @@ import "./index.css";
 import { ButtonToolbar } from "react-bootstrap";
 import App from "./App";
 import Footer from "./footer";
+import "./App.css";
 
 class Box extends React.Component {
   render() {
@@ -45,7 +46,7 @@ class Main extends React.Component {
   constructor() {
     super();
     this.speed = 350;
-    this.rows = 80;
+    this.rows = 50;
     this.cols = 120;
 
     this.state = {
@@ -126,7 +127,6 @@ class Main extends React.Component {
             cols={this.cols}
           />
         </div>
-        <Footer />
       </>
     );
   }

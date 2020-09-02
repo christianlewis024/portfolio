@@ -1,6 +1,5 @@
 .box-1 {
   font-size: 30px;
-  position: absolute;
   background-color: white;
   width: 80%;
   padding: 2%;
@@ -19,7 +18,7 @@ span {
   border: 1px solid black;
   width: 100%;
   height: 30%;
-  margin-top: 25%;
+  margin-top: 5%;
 }
 
 .project-wrapper {
@@ -109,4 +108,9 @@ span .fab {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #36454f;
+}
+/* break point styling */
+@media screen and (max-width: 1450px) {
+  .box-1 {
+  }
 }

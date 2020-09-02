@@ -36,10 +36,10 @@ function App() {
             </span>
             <div className="proj-about">
               here is where i will write about the skills i used to create the
-              project here is where i will write about the skills i used to
-              create the project here is where i will write about the skills i
-              used to create the project here is where i will write about the
-              skills i used to create the project
+              project heasdfasfdasdfasdfsadfs where i will write about the
+              skills i used to create the project here is where i will write
+              about the skills i used to create the project here is where i will
+              write about the skills i used to create the project
             </div>
           </div>
           <div className="project-2">

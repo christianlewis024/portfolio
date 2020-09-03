@@ -35,12 +35,12 @@ function App() {
             </a>
           </span>
           <div className="proj-about">
-            here is where i will write about the skills i used to create the
-            project heasdfasfdasdfasdfsadfs where i will write about the skills
-            i used to create the project here is where i will write about the
-            skills i used to create the project here is where i will write about
-            the skills i used to create the project
+            {" "}
+            Group project for mapping police brutality across the US. Worked on
+            by 8 developers from front end, backend, and data science.
+            Implemented with React, CSS, Google Maps, AWS on the front end.
           </div>
+
           <div className="project-2">
             <a href="https://www.sciencewithmrslewis.com/" target="_blank">
               <img src="chanelss.png" className="apiss"></img>
@@ -59,11 +59,10 @@ function App() {
             </a>
           </span>
           <div className="proj-about">
-            here is where i will write about the skills i used to create the
-            project here is where i will write about the skills i used to create
-            the project here is where i will write about the skills i used to
-            create the project here is where i will write about the skills i
-            used to create the project
+            A website for a teacher who needed more online presence during the
+            COVID 19 pandemic. Has a blog that only logged in admins can post
+            in. Any visitor can see posts. Implemented with HTML, CSS, JS,
+            Materialize and Firebase for the backend and auth.
           </div>
         </div>
         <div className="bottom2">
@@ -85,11 +84,11 @@ function App() {
             </a>
           </span>
           <div className="proj-about">
-            here is where i will write about the skills i used to create the
-            project here is where i will write about the skills i used to create
-            the project here is where i will write about the skills i used to
-            create the project here is where i will write about the skills i
-            used to create the project
+            A group project by students during our "spring break". We wanted to
+            make an app that would allow us to track our favorite public APIs
+            for small projects. Has an upvote and downvote, search, and
+            authentication to create posts. Implemented with HTML, CSS, JS,
+            Firebase and Vue.
           </div>
           <div className="project-4">
             <a href="https://weeklyhistoryquiz.netlify.app/" target="_blank">
@@ -109,11 +108,11 @@ function App() {
             </a>
           </span>
           <div className="proj-about">
-            here is where i will write about the skills i used to create the
-            project here is where i will write about the skills i used to create
-            the project here is where i will write about the skills i used to
-            create the project here is where i will write about the skills i
-            used to create the project
+            A weekly history quiz that I made for a history club that I belong
+            to. Got about 20-30 users per week. This was the project that got me
+            interested in coding full time. Scores are instantly sent to
+            firebase. Implemented with HTML, CSS, JS, Materialize, and Firebase
+            for the auth and backend.
           </div>
         </div>
         <div className="footerClass">

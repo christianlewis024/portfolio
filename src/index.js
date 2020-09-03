@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { ButtonToolbar } from "react-bootstrap";
 import App from "./App";
-import Footer from "./footer";
+
 import "./App.css";
 
 class Box extends React.Component {
